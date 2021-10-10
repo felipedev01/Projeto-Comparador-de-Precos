@@ -16,7 +16,7 @@ function HomeScreen({ navigation }) {
   return (
     <View style={{ /*marginTop: Constants.statusBarHeight,*/ flex: 1 }}>
       <View style={{ /*backgroundColor: '#fff159',*/backgroundColor:'#FFDD00', height: '10%', alignItems: 'center', justifyContent: 'center', paddingTop:14}}><Text style={{ color: 'black', fontSize: 30, fontWeight: 'bold',fontStyle:'italic' }}>Comparador de Preços</Text></View>
-      <View style={{ backgroundColor: '#FFDD00', paddingHorizontal: '5%', paddingTop: 15 }}><Text style={{color: 'black', fontSize: 25, textAlign: 'center',fontWeight:'100' }}>Crie sua lista e compare preços entre supermercados da sua cidade, compre pelo melhor preço</Text></View>
+      <View style={{ backgroundColor: '#FFDD00', paddingHorizontal: '5%', paddingTop: 15 }}><Text style={{color: 'black', fontSize: 24, textAlign: 'center',fontWeight:'100' }}>Crie sua lista e compare preços entre supermercados da sua cidade, compre pelo melhor preço</Text></View>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFDD00' }}>
 
         <TouchableOpacity style={{ backgroundColor: '#4285F4', width: '80%', height: '12%', alignItems: 'center', justifyContent: 'center', borderRadius: 20, position: 'relative', bottom: '20%' }} onPress={() => navigation.navigate('Details')}><Text style={{ color: 'white', fontSize: 25,fontWeight:'bold' }}>criar lista</Text></TouchableOpacity>
